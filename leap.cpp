@@ -6,7 +6,9 @@ int leap_year(int n){
         return -1;
     }
     if(n%4==0){
-        
+        if(n%4==0){
+            return 0;
+        }
     }
     else{
         return 0;
